@@ -19,7 +19,7 @@ def fact(n):
 
 def nCr(n, r):
     """ function to count nCr"""
-    return (int(fact(n) / (fact(r) * fact(n - r))))
+    return (fact(n) // (fact(r) * fact(n - r)))
 
 
 def pascal_triangle(n):
